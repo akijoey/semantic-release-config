@@ -1,7 +1,11 @@
 // .releaserc.js
 
 module.exports = {
-  prepare: ['@semantic-release/npm'],
+  prepare: [
+    '@semantic-release/changelog',
+    '@semantic-release/npm',
+    '@semantic-release/git'
+  ],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
