@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/akijoey/semantic-release-config/compare/v1.0.2...v1.0.3) (2021-07-25)
+
+
+### Bug Fixes
+
+* skip publish ([313e075](https://github.com/akijoey/semantic-release-config/commit/313e075b3bb4e69b709c4592910da076c5a13ce4))
+
 # 1.0.0 (2021-07-25)
 
 

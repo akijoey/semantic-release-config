@@ -1,6 +1,6 @@
 {
   "name": "@akijoey/semantic-release-config",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Personal semantic release config.",
   "main": "index.js",
   "files": [
