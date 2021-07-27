@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/akijoey/semantic-release-config/compare/v1.0.3...v1.0.4) (2021-07-27)
+
+
+### Bug Fixes
+
+* scope extends ([637071e](https://github.com/akijoey/semantic-release-config/commit/637071ebd76d23d9b0747098bd76a4fc21da2c3e))
+
 ## [1.0.3](https://github.com/akijoey/semantic-release-config/compare/v1.0.2...v1.0.3) (2021-07-25)
 
 
