@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/akijoey/semantic-release-config/compare/v1.0.7...v1.0.8) (2021-08-30)
+
+
+### Bug Fixes
+
+* pop plugins ([ab839e3](https://github.com/akijoey/semantic-release-config/commit/ab839e3cbf9e325097e816cf7e2fb92796a5886b))
+
 ## [1.0.7](https://github.com/akijoey/semantic-release-config/compare/v1.0.6...v1.0.7) (2021-08-01)
 
 
