@@ -15,8 +15,8 @@ module.exports = {
       }
     ],
     '@semantic-release/github',
-    process.env.SCOPE !== 'extends' && '@semantic-release/npm'
-  ].filter(Boolean),
+    '@semantic-release/npm'
+  ],
   prepare: [
     '@semantic-release/changelog',
     '@semantic-release/npm',
