@@ -1,13 +1,8 @@
 // semantic-release-config
 
 const config = require('./.releaserc')
-config.plugins.pop()
 
 const packageMap = {
-  npm: {
-    plugin: '@semantic-release/npm',
-    assets: 'package.json'
-  },
   maven: {
     plugin: 'semantic-release-maven',
     assets: 'pom.xml'
@@ -19,18 +14,17 @@ const packageMap = {
 }
 
 config.releasePackage = name => {
-  if (name !== 'npm') {
-    config.preparePackage(name)
-  }
+  config.preparePackage(name)
   const { plugin } = packageMap[name]
-  config.plugins.push(plugin)
+  config.plugins.splice(-2, 0, plugin)
   return config
 }
 
 config.preparePackage = name => {
   const { plugin, assets } = packageMap[name]
-  config.plugins[3][1].assets.push(assets)
-  config.prepare.splice(2, 0, plugin)
+  const length = config.plugins.length
+  config.plugins[length - 2][1].assets.push(assets)
+  config.prepare.splice(-1, 0, plugin)
   return config
 }
 
