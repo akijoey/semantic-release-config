@@ -1,6 +1,6 @@
 {
   "name": "@akijoey/semantic-release-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Personal semantic release config.",
   "keywords": [
     "semantic-release"

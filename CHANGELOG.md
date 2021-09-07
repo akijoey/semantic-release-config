@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/akijoey/semantic-release-config/compare/v1.0.8...v1.0.9) (2021-09-07)
+
+
+### Bug Fixes
+
+* add plugin ([385b04b](https://github.com/akijoey/semantic-release-config/commit/385b04bed2b99e1bd032d676bd8c7c226a2b0eea))
+
 ## [1.0.8](https://github.com/akijoey/semantic-release-config/compare/v1.0.7...v1.0.8) (2021-08-30)
 
 
