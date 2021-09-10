@@ -13,19 +13,28 @@ const packageMap = {
   }
 }
 
-config.releasePackage = name => {
-  config.preparePackage(name)
-  const { plugin } = packageMap[name]
+const releasePackage = (name, options) => {
+  preparePackage(name, options)
+  let { plugin, assets } = packageMap[name]
+  plugin = options ? [plugin, options] : plugin
+
+  const { length } = config.plugins
+  config.plugins[length - 2][1].assets.push(assets)
   config.plugins.splice(-2, 0, plugin)
   return config
 }
 
-config.preparePackage = name => {
-  const { plugin, assets } = packageMap[name]
-  const length = config.plugins.length
-  config.plugins[length - 2][1].assets.push(assets)
+const preparePackage = (name, options) => {
+  let { plugin, assets } = packageMap[name]
+  plugin = options ? [plugin, options] : plugin
+
+  const { length } = config.prepare
+  config.prepare[length - 1][1].assets.push(assets)
   config.prepare.splice(-1, 0, plugin)
   return config
 }
 
-module.exports = config
+module.exports = Object.assign(config, {
+  releasePackage,
+  preparePackage
+})
