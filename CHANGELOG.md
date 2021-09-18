@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/akijoey/semantic-release-config/compare/v1.1.1...v1.1.2) (2021-09-18)
+
+
+### Bug Fixes
+
+* test function ([cc685f0](https://github.com/akijoey/semantic-release-config/commit/cc685f042b1029ed6e7e46bc91ea66779dd9c37f))
+
 ## [1.1.1](https://github.com/akijoey/semantic-release-config/compare/v1.1.0...v1.1.1) (2021-09-10)
 
 
