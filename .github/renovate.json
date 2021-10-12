@@ -1,0 +1,3 @@
+{
+  "extends": ["github>akijoey/dev-scripts//.github/renovate"]
+}
