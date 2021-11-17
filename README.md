@@ -27,12 +27,9 @@ Add to your semantic release config:
 
 [npm-image]: https://img.shields.io/npm/v/@akijoey/semantic-release-config
 [npm-url]: https://www.npmjs.com/package/@akijoey/semantic-release-config
-
 [build-image]: https://img.shields.io/github/workflow/status/akijoey/semantic-release-config/Build
 [build-url]: https://github.com/akijoey/semantic-release-config/actions/workflows/build.yml
-
 [coverage-image]: https://img.shields.io/codecov/c/gh/akijoey/semantic-release-config
 [coverage-url]: https://codecov.io/gh/akijoey/semantic-release-config
-
 [license-image]: https://img.shields.io/github/license/akijoey/semantic-release-config
 [license-url]: https://github.com/akijoey/semantic-release-config/blob/master/LICENSE
