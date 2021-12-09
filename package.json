@@ -22,17 +22,17 @@
     "lint": "devkit lint",
     "test": "devkit test",
     "format": "devkit format",
-    "prepare": "devkit hook",
+    "prepare": "devkit prepare",
     "release": "devkit release"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "semantic-release-maven": "^1.1.4",
-    "semantic-release-pypi": "^2.1.0"
+    "semantic-release-pypi": "^2.4.3"
   },
   "peerDependencies": {
-    "semantic-release": "^17.4.4"
+    "semantic-release": "^18.0.1"
   },
   "devDependencies": {
     "@akijoey/devkit": "latest"
