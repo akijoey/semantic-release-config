@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/akijoey/semantic-release-config/compare/v1.1.4...v1.1.5) (2021-12-13)
+
+
+### Bug Fixes
+
+* readme url ([31aac4d](https://github.com/akijoey/semantic-release-config/commit/31aac4d0370c31d35051ac653269cbdf2eb01444))
+
 ## [1.1.4](https://github.com/akijoey/semantic-release-config/compare/v1.1.3...v1.1.4) (2021-12-09)
 
 
