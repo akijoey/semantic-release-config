@@ -32,4 +32,4 @@ Add to your semantic release config:
 [coverage-image]: https://img.shields.io/codecov/c/gh/akijoey/semantic-release-config
 [coverage-url]: https://codecov.io/gh/akijoey/semantic-release-config
 [license-image]: https://img.shields.io/github/license/akijoey/semantic-release-config
-[license-url]: https://github.com/akijoey/semantic-release-config/blob/master/LICENSE
+[license-url]: https://github.com/akijoey/semantic-release-config/blob/main/LICENSE
