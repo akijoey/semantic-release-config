@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/akijoey/semantic-release-config/compare/v1.1.5...v1.1.6) (2022-01-16)
+
+
+### Bug Fixes
+
+* upgrade dependency ([7f51f03](https://github.com/akijoey/semantic-release-config/commit/7f51f038e151ef0d01968ce6a2005805bc9be01a))
+
 ## [1.1.5](https://github.com/akijoey/semantic-release-config/compare/v1.1.4...v1.1.5) (2021-12-13)
 
 
