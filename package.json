@@ -28,7 +28,7 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release-maven": "^1.1.5",
+    "semantic-release-maven": "^1.1.6",
     "semantic-release-pypi": "^2.5.0"
   },
   "peerDependencies": {
