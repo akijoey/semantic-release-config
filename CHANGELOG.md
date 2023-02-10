@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/akijoey/semantic-release-config/compare/v1.1.8...v1.1.9) (2023-02-10)
+
+
+### Bug Fixes
+
+* build badge ([c00ec45](https://github.com/akijoey/semantic-release-config/commit/c00ec4569a27c1a267fa8ee36897d7724b3dd958))
+
 ## [1.1.8](https://github.com/akijoey/semantic-release-config/compare/v1.1.7...v1.1.8) (2022-09-07)
 
 
