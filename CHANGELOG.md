@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/akijoey/semantic-release-config/compare/v1.1.9...v1.2.0) (2024-01-14)
+
+
+### Features
+
+* update peer dependencies ([b99a1a2](https://github.com/akijoey/semantic-release-config/commit/b99a1a235f29b1bc2f0323ec0b19c0522f395015))
+
 ## [1.1.9](https://github.com/akijoey/semantic-release-config/compare/v1.1.8...v1.1.9) (2023-02-10)
 
 
